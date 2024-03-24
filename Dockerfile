@@ -8,6 +8,6 @@ RUN mv .env.example .env
 
 EXPOSE 4040
 
-ENTRYPOINT ["go", "run"]
+ENTRYPOINT [ "go", "run" ]
 
-CMD ["main.go"]
+CMD [ "main.go" ]
